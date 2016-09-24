@@ -1,0 +1,17 @@
+﻿Build started 7/5/2016 3:46:29 PM.
+     1>Project "E:\ssd_docs\My projects\AI1.0.0\AI1.0.0\AI1.0.0.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt Chromosome.cpp Population.cpp main.cpp
+         main.cpp
+     1>e:\ssd_docs\my projects\ai1.0.0\ai1.0.0\population.h(4): error C2143: syntax error: missing ';' before 'using namespace'
+     1>e:\ssd_docs\my projects\ai1.0.0\ai1.0.0\main.cpp(10): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+         Population.cpp
+     1>e:\ssd_docs\my projects\ai1.0.0\ai1.0.0\population.h(4): error C2143: syntax error: missing ';' before 'using namespace'
+         Chromosome.cpp
+     1>c:\program files (x86)\microsoft visual studio 14.0\vc\include\random(30): error C2143: syntax error: missing ';' before 'namespace'
+         Generating Code...
+     1>Done Building Project "E:\ssd_docs\My projects\AI1.0.0\AI1.0.0\AI1.0.0.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.73

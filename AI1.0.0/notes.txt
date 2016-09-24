@@ -1,0 +1,28 @@
+a network that minimizes the average difference between predicted price and actual price over a long period of time
+-must identify ideal learning algorithm
+
+how to deal with inputs changing over time? (listings being added/removed when corporation goes under/starts up)
+~~completely exclude equities that go under(0 market cap) since they will not be useful anyway
+
+DEALING WITH GIGO(garbage in garbage out)
+identify unique sets of input that cause price fluctuations and discount them
+-need an algorithm for this, possibly a modification to learning algorithm
+~~compare network correlations to pre-identified statistical correlations to weed out bad input
+~~implement a "forgetting" function with reinforcement variables, connections that are continuously reinforced are forgotten more slowly
+~~re-train genetic algorithm on the same data, but in chunks so that you could potentially get more generations in
+
+use genetic algorithm to create small networks, then "stitch" them together
+-intermediate network may have all of the problems we try to avoid by making small networks anyway
+~~determine market conditions in which each network works best, minimize average error around those conditions instead of around all conditions, then use an intermediate network to decide which sub-network to use
+~~intermediate network will also output a "confidence" value which denotes how confident it is in it's choice of sub-network.
+
+use a second completeley different neural network based clustering algorithm that attempts to identify economic conditions in which the individual market prediction networks perform well,
+do not modify the prediction network chromosome's fitness unless the clustering algorithm identify's the conditions as optimal for that network.
+
+fitness function:
+f = -(error in cluster * confidence in cluster * weight1 + error outside cluster * weight2 + inactive time^weight3 * weight4 + age * weight5)
+
+NOTE:
+confidence in cluster may not even exist so just take it out if it doesnt
+cluster refers to whichever cluster the network produces optimal results in
+inactive time refers to the time that the network spent inactive in the simulation because of missing inputs(unless they are inactive outside of cluster).

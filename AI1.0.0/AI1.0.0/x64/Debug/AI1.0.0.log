@@ -1,0 +1,36 @@
+﻿Build started 7/29/2016 5:41:44 PM.
+     1>Project "E:\ssd_docs\My projects\AI1.0.0\AI1.0.0\AI1.0.0.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /IE:\program_files\boost /ZI /nologo /W3 /WX- /Od /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"x64\Debug\\" /Fd"x64\Debug\vc140.pdb" /Gd /TP /errorReport:prompt Chromosome.cpp main.cpp
+         main.cpp
+         Chromosome.cpp
+     1>e:\ssd_docs\my projects\ai1.0.0\ai1.0.0\chromosome.cpp(63): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+     1>e:\ssd_docs\my projects\ai1.0.0\ai1.0.0\chromosome.cpp(72): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+     1>e:\ssd_docs\my projects\ai1.0.0\ai1.0.0\chromosome.cpp(77): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+     1>e:\ssd_docs\my projects\ai1.0.0\ai1.0.0\chromosome.cpp(108): warning C4099: 'input': type name first seen using 'class' now seen using 'struct'
+         e:\ssd_docs\my projects\ai1.0.0\ai1.0.0\input.h(8): note: see declaration of 'input'
+         Generating Code...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"E:\ssd_docs\My projects\AI1.0.0\x64\Debug\AI1.0.0.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"E:\ssd_docs\My projects\AI1.0.0\x64\Debug\AI1.0.0.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\ssd_docs\My projects\AI1.0.0\x64\Debug\AI1.0.0.lib" /MACHINE:X64 x64\Debug\belvis.obj
+         x64\Debug\Chromosome.obj
+         x64\Debug\Input.obj
+         x64\Debug\main.obj
+         x64\Debug\Market.obj
+         x64\Debug\Network.obj
+         x64\Debug\Neuron.obj
+         x64\Debug\Population.obj
+         x64\Debug\fnchyppr.obj
+         x64\Debug\mersenne.obj
+         x64\Debug\mother.obj
+         x64\Debug\sfmt.obj
+         x64\Debug\stoc1.obj
+         x64\Debug\stoc2.obj
+         x64\Debug\stoc3.obj
+         x64\Debug\userintf.obj
+         x64\Debug\wnchyppr.obj
+         AI1.0.0.vcxproj -> E:\ssd_docs\My projects\AI1.0.0\x64\Debug\AI1.0.0.exe
+     1>Done Building Project "E:\ssd_docs\My projects\AI1.0.0\AI1.0.0\AI1.0.0.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.51
